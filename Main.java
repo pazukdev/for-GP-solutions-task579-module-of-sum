@@ -17,7 +17,7 @@ public class Main {
         inputWriter.close();*/
 
         File file = new File("input.txt");
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(file);
         int n = scanner.nextInt();
         int[] intArray = new int[5];
         int i=0;
